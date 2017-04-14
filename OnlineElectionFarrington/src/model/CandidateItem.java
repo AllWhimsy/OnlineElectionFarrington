@@ -1,4 +1,5 @@
 package model;
+//Michelle Farrington
 
 public class CandidateItem {
 	private String election;

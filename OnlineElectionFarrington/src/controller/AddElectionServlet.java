@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import model.CandidateItem;
 import model.ElectionDAO;
-
+//Michelle Farrington
 /**
  * Servlet implementation class AddElectionServlet
  */

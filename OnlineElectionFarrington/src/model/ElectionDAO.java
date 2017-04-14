@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.HashSet;
+//Michelle Farrington
 
 public class ElectionDAO {
 	Connection con = null;
@@ -90,8 +91,8 @@ public class ElectionDAO {
 		String tempCand2Name = i.getCand2Name();
 		String tempCand3Name = i.getCand3Name();
 
-		String query = "insert into election (election, cand1name, cand2name, cand3name) values (' " + tempElection
-				+ " ', ' " + tempCand1Name + " ', ' " + tempCand2Name + " ', ' " + tempCand3Name + " ')";
+		String query = "insert into election (election, cand1name, cand2name, cand3name) values ('" + tempElection
+				+ "', '" + tempCand1Name + "', '" + tempCand2Name + "', '" + tempCand3Name + "')";
 		System.out.println(query);
 		
 		try {
